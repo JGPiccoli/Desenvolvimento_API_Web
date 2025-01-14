@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\j\\OneDrive\\Desktop\\Desenvolvimento_API_Web\\Sistema_GerenciamentoProjetos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4FB246AA-2E0D-4F40-9AF0-E9B0D5D3E8B2}|SGP\\SGP.csproj|c:\\users\\j\\onedrive\\desktop\\desenvolvimento_api_web\\sistema_gerenciamentoprojetos\\sgp\\infra\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FB246AA-2E0D-4F40-9AF0-E9B0D5D3E8B2}|SGP\\SGP.csproj|solutionrelative:sgp\\infra\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\j\\OneDrive\\Desktop\\Desenvolvimento_API_Web\\Sistema_GerenciamentoProjetos\\SGP\\Infra\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "SGP\\Infra\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\j\\OneDrive\\Desktop\\Desenvolvimento_API_Web\\Sistema_GerenciamentoProjetos\\SGP\\Infra\\UsuarioRepository.cs",
+              "RelativeToolTip": "SGP\\Infra\\UsuarioRepository.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwDkAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T15:42:41.821Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
