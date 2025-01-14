@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\j\\OneDrive\\Desktop\\Desenvolvimento_API_Web\\Sistema_GerenciamentoProjetos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4FB246AA-2E0D-4F40-9AF0-E9B0D5D3E8B2}|SGP\\SGP.csproj|c:\\users\\j\\onedrive\\desktop\\desenvolvimento_api_web\\sistema_gerenciamentoprojetos\\sgp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FB246AA-2E0D-4F40-9AF0-E9B0D5D3E8B2}|SGP\\SGP.csproj|solutionrelative:sgp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FB246AA-2E0D-4F40-9AF0-E9B0D5D3E8B2}|SGP\\SGP.csproj|c:\\users\\j\\onedrive\\desktop\\desenvolvimento_api_web\\sistema_gerenciamentoprojetos\\sgp\\infra\\tarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FB246AA-2E0D-4F40-9AF0-E9B0D5D3E8B2}|SGP\\SGP.csproj|solutionrelative:sgp\\infra\\tarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FB246AA-2E0D-4F40-9AF0-E9B0D5D3E8B2}|SGP\\SGP.csproj|c:\\users\\j\\onedrive\\desktop\\desenvolvimento_api_web\\sistema_gerenciamentoprojetos\\sgp\\domain\\entities\\tarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FB246AA-2E0D-4F40-9AF0-E9B0D5D3E8B2}|SGP\\SGP.csproj|solutionrelative:sgp\\domain\\entities\\tarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4FB246AA-2E0D-4F40-9AF0-E9B0D5D3E8B2}|SGP\\SGP.csproj|c:\\users\\j\\onedrive\\desktop\\desenvolvimento_api_web\\sistema_gerenciamentoprojetos\\sgp\\infra\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FB246AA-2E0D-4F40-9AF0-E9B0D5D3E8B2}|SGP\\SGP.csproj|solutionrelative:sgp\\infra\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +31,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\j\\OneDrive\\Desktop\\Desenvolvimento_API_Web\\Sistema_GerenciamentoProjetos\\SGP\\Program.cs",
+              "RelativeDocumentMoniker": "SGP\\Program.cs",
+              "ToolTip": "C:\\Users\\j\\OneDrive\\Desktop\\Desenvolvimento_API_Web\\Sistema_GerenciamentoProjetos\\SGP\\Program.cs",
+              "RelativeToolTip": "SGP\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T17:24:25.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TarefaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\j\\OneDrive\\Desktop\\Desenvolvimento_API_Web\\Sistema_GerenciamentoProjetos\\SGP\\Infra\\TarefaRepository.cs",
+              "RelativeDocumentMoniker": "SGP\\Infra\\TarefaRepository.cs",
+              "ToolTip": "C:\\Users\\j\\OneDrive\\Desktop\\Desenvolvimento_API_Web\\Sistema_GerenciamentoProjetos\\SGP\\Infra\\TarefaRepository.cs",
+              "RelativeToolTip": "SGP\\Infra\\TarefaRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwC0AAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T17:22:32.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tarefas.cs",
+              "DocumentMoniker": "C:\\Users\\j\\OneDrive\\Desktop\\Desenvolvimento_API_Web\\Sistema_GerenciamentoProjetos\\SGP\\Domain\\Entities\\Tarefas.cs",
+              "RelativeDocumentMoniker": "SGP\\Domain\\Entities\\Tarefas.cs",
+              "ToolTip": "C:\\Users\\j\\OneDrive\\Desktop\\Desenvolvimento_API_Web\\Sistema_GerenciamentoProjetos\\SGP\\Domain\\Entities\\Tarefas.cs",
+              "RelativeToolTip": "SGP\\Domain\\Entities\\Tarefas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T17:21:55.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UsuarioRepository.cs",
               "DocumentMoniker": "C:\\Users\\j\\OneDrive\\Desktop\\Desenvolvimento_API_Web\\Sistema_GerenciamentoProjetos\\SGP\\Infra\\UsuarioRepository.cs",
               "RelativeDocumentMoniker": "SGP\\Infra\\UsuarioRepository.cs",

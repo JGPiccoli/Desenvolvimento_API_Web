@@ -6,19 +6,17 @@
         public string Titulo { get; set; }
         public string DescricaoT { get; set; }
         public DateTime Prazo { get; set; }
-        public int Responsavel_Id { get; set; }
         public int ProjectKey { get; set; }
 
 
         public Tarefas () {}
 
-        public Tarefas (int id , string titulo, string descricaoT, DateTime prazo, int responsavel_Id, int projectKey)
+        public Tarefas (int id , string titulo, string descricaoT, DateTime prazo, int projectKey)
         {
             Tarefa_Id = id;
             Titulo = titulo;
             DescricaoT = descricaoT;
             Prazo = prazo;
-            Responsavel_Id = responsavel_Id;
             ProjectKey = projectKey;
         }
 

@@ -34,7 +34,7 @@ namespace SGP.Infra
 
         public async Task<int> PostTarefa(Tarefas tarefa)
         {
-            var query = "INSERT INTO Tarefas (Titulo, DescricaoT, Prazo, Responsavel_Id, ProjectKey) VALUES (@Titulo, @DescricaoT, @Prazo, @Responsavel_Id, @ProjectKey)";
+            var query = "INSERT INTO Tarefas (Titulo, DescricaoT, Prazo, ProjectKey) VALUES (@Titulo, @DescricaoT, @Prazo, @ProjectKey)";
             using (var connection = _dbConnection.GetConnection())
             {
                 return await connection.ExecuteAsync(query, tarefa);
@@ -43,7 +43,7 @@ namespace SGP.Infra
 
         public async Task<int> PutTarefa(int id, Tarefas tarefa)
         {
-            var query = "UPDATE Tarefas SET Titulo = @Titulo, DescricaoT = @DescricaoT, Prazo = @Prazo, Responsavel_Id = @Responsavel_Id, ProjectKey = @ProjectKey WHERE Tarefa_Id = @Tarefa_Id";
+            var query = "UPDATE Tarefas SET Titulo = @Titulo, DescricaoT = @DescricaoT, Prazo = @Prazo, ProjectKey = @ProjectKey WHERE Tarefa_Id = @Tarefa_Id";
             using (var connection = _dbConnection.GetConnection())
             {
                 return await connection.ExecuteAsync(query, tarefa);

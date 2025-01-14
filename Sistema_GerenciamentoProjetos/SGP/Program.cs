@@ -1,6 +1,3 @@
-using System.Text;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
 using SGP.Application.ServicesApp;
 using SGP.Data;
 using SGP.Domain.IRepository;
@@ -9,6 +6,16 @@ using SGP.Infra;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigin",
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:5174")
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
+});
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -20,6 +27,7 @@ builder.Services.AddScoped<IProjetoRepository, ProjetoRepository>();
 builder.Services.AddScoped<IProjetoService, ProjetoService>();
 builder.Services.AddScoped<ITarefaRepository, TarefaRepository>();
 builder.Services.AddScoped<ITarefasService, TarefasService>();
+
 builder.Services.AddScoped<PostgresConnection>(provider =>
 {
     var configuration = provider.GetRequiredService<IConfiguration>();
@@ -36,9 +44,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseAuthentication();
-
+app.UseCors("AllowSpecificOrigin");
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
 
 app.MapControllers();
