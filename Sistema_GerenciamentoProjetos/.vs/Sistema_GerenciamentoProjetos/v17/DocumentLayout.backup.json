@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "SGP\\Program.cs",
               "ToolTip": "C:\\Users\\j\\OneDrive\\Desktop\\Desenvolvimento_API_Web\\Sistema_GerenciamentoProjetos\\SGP\\Program.cs",
               "RelativeToolTip": "SGP\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAuwDUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-14T17:24:25.918Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "SGP\\Infra\\TarefaRepository.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAwwC0AAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T17:22:32.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T17:22:32.394Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "SGP\\Domain\\Entities\\Tarefas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T17:21:55.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T17:21:55.722Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "SGP\\Infra\\UsuarioRepository.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAwwDkAAABwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T15:42:41.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T15:42:41.821Z"
             }
           ]
         }
